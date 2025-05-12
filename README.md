@@ -5,6 +5,19 @@ Sihirbazı kullanırken herhangi bir hata ile karşılaşırsanız veya takıld�
 Varsa `/tmp/setup-frudotz.log` dosyanızla birlikte Discord/Telegram üzerinden bana ulaşarak iletebilirsiniz.  
 *Rehberimizi kaynak göstererek paylaşmanız önemle rica olunur.* 🙏  
 
+## 💭 Geliştirilme Amacı
+> Her gün gelişen ve genişleyen OpenWRT Türkiye topluluğunun yeni katılımcıları,  
+> Tercih edebilecekleri cihaz çeşitliliğinin az olması ve mevcut altyapılarının teknolojileri doğrultusunda  
+> Özellikle DSL altyapılarda erişilebilen OpenWRT destekli DSL modemlerin yetersiz donanımları sebebiyle  
+> İyi bir OpenWRT deneyimi için birden fazla cihaz kullanma ihtiyaçları doğabiliyor.  
+> 
+> Bu kısımda, donanımları daha kuvvetli olması sebebiyle edindikleri OpenWRT destekli routerlarını  
+> DSL altyapıda kullanabilmeleri için OpenWRT üzerinde köprü moduna ihtiyaç duyuluyor.  
+> Ancak OpenWRT'ye yeni adım atan kişiler için bu ayarları tamamlamak kolay olmayabiliyor.  
+> 
+> Hızlı kurulum sihirbazımız bu kısımda devreye girerek sadece bir ethernet kablosu ve terminal ile  
+> Tüm kurulumu olabilecek en hızlı şekilde tamamlanabilir hale getirmeyi hedefliyor.
+
 ## 📥 Kuruluma Başlarken
 > Tercihen kurulum yapacağınız cihazın tüm bağlantılarını sökün, sadece bilgisayar bağlı olarak kalsın.  
 > Hızlı kurulum işleminde bilgisayarınızı, kablolu/kablosuz **`cihaza direkt bağlamanız`** daha sağlıklı olacaktır.  
