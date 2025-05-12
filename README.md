@@ -5,10 +5,11 @@ Sihirbazı kullanırken herhangi bir hata ile karşılaşırsanız veya takıld�
 Varsa `/tmp/setup-frudotz.log` dosyanızla birlikte Discord/Telegram üzerinden bana ulaşarak iletebilirsiniz.  
 *Rehberimizi kaynak göstererek paylaşmanız önemle rica olunur.* 🙏  
 
-## 🪄 Hızlı Kurulum
+## 📥 Kuruluma Başlarken
 > Tercihen kurulum yapacağınız cihazın tüm bağlantılarını sökün, sadece bilgisayar bağlı olarak kalsın.  
-> Hızlı kurulum işleminde bilgisayarınızın, kablolu/kablosuz **`cihaza direkt bağlantısı`** olması daha sağlıklı olur.  
+> Hızlı kurulum işleminde bilgisayarınızı, kablolu/kablosuz **`cihaza direkt bağlamanız`** daha sağlıklı olacaktır.  
 
+## 🪄 Nasıl Kurulur?
 * SSH/Telnet üzerinden cihazın terminal arayüzüne erişin ve ardından aşağıdaki komutları satır satır girin.  
 ```sh
 wget https://frudotz.com/setup.sh -O setup.sh
@@ -23,6 +24,8 @@ OpenWRT Kopru Modu Hizli Kurulum Sihirbazi - @frudotz
 DSL/Router cihaz algilandi. DSL/Router yapilandirmasi uygulanacak.
 dsl.sh/router.sh dosyasi indiriliyor...
 ```
+
+## 🫠 Sorun Giderme
 * Bu kısımda bir hatayla karşılaşmanız durumunda, eğer cihaza erişiminiz kesilirse:
     <details>
   <summary> Denetim masası üzerinden IP'nizi sabitleyerek cihaza SSH/Telnet üzerinden erişin.</summary>
@@ -31,7 +34,8 @@ dsl.sh/router.sh dosyasi indiriliyor...
     </details>
   
   * `cat /tmp/setup-frudotz.log` komutu ile `/tmp/setup-frudotz.log` dosya içeriğine ulaşın.
-  * Çıkan hata loglarını Discord/Telegram üzerinden bana iletin.
+  * Çıkan hata loglarını Discord/Telegram üzerinden bana iletebilirsiniz.  
+* Cihazda farklı ayarlar mevcutsa resetleyip tekrar sihirbazı çalıştırmayı deneyebilirsiniz.
 
 ## 🚀 Projeyi Bizimle Geliştirin
 *Eksik gördüğünüz, geliştirilmesini istediğiniz kısımları **`📍 Pull Request/Issues`** kısmından iletebilir,*  
