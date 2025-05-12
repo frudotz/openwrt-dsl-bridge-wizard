@@ -13,7 +13,7 @@ Varsa `/tmp/setup-frudotz.log` dosyanızla birlikte Discord/Telegram üzerinden 
 ```sh
 wget https://frudotz.com/setup.sh -O setup.sh
 chmod +x setup.sh
-sh setup.sh
+./setup.sh
 ```
 
 * Script sorunsuz olarak çalışmaya başlarsa terminal arayüzünde şuna benzer yazılar göreceksiniz:  
