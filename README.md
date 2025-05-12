@@ -48,7 +48,7 @@ dsl.sh/router.sh dosyasi indiriliyor...
   
   * `cat /tmp/setup-frudotz.log` komutu ile `/tmp/setup-frudotz.log` dosya içeriğine ulaşın.
   * Çıkan hata loglarını Discord/Telegram üzerinden bana iletebilirsiniz.  
-* Cihazda farklı ayarlar mevcutsa resetleyip tekrar sihirbazı çalıştırmayı deneyebilirsiniz.
+> ⚠️ **Cihazda farklı ayarlar mevcutsa resetleyip tekrar sihirbazı çalıştırmayı deneyebilirsiniz.**
 
 ## 🚀 Projeyi Bizimle Geliştirin
 *Eksik gördüğünüz, geliştirilmesini istediğiniz kısımları **`📍 Pull Request/Issues`** kısmından iletebilir,*  
